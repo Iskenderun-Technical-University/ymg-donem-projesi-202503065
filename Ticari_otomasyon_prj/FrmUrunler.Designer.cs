@@ -51,6 +51,7 @@
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
             this.btnSil = new DevExpress.XtraEditors.SimpleButton();
             this.txtYil = new System.Windows.Forms.MaskedTextBox();
@@ -75,7 +76,7 @@
             // 
             // numerAdet
             // 
-            this.numerAdet.Location = new System.Drawing.Point(127, 150);
+            this.numerAdet.Location = new System.Drawing.Point(184, 181);
             this.numerAdet.Name = "numerAdet";
             this.numerAdet.Size = new System.Drawing.Size(132, 21);
             this.numerAdet.TabIndex = 4;
@@ -85,7 +86,7 @@
             this.btnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKaydet.Appearance.Options.UseFont = true;
             this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
-            this.btnKaydet.Location = new System.Drawing.Point(73, 324);
+            this.btnKaydet.Location = new System.Drawing.Point(130, 378);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(223, 48);
             this.btnKaydet.TabIndex = 3;
@@ -94,7 +95,7 @@
             // 
             // richDetay
             // 
-            this.richDetay.Location = new System.Drawing.Point(126, 225);
+            this.richDetay.Location = new System.Drawing.Point(183, 256);
             this.richDetay.Name = "richDetay";
             this.richDetay.Size = new System.Drawing.Size(133, 81);
             this.richDetay.TabIndex = 2;
@@ -104,7 +105,7 @@
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(4, 198);
+            this.labelControl9.Location = new System.Drawing.Point(61, 229);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(105, 18);
             this.labelControl9.TabIndex = 0;
@@ -114,7 +115,7 @@
             // 
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(14, 174);
+            this.labelControl8.Location = new System.Drawing.Point(71, 205);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(95, 18);
             this.labelControl8.TabIndex = 0;
@@ -124,7 +125,7 @@
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(50, 225);
+            this.labelControl7.Location = new System.Drawing.Point(107, 256);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(59, 18);
             this.labelControl7.TabIndex = 0;
@@ -134,7 +135,7 @@
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(73, 126);
+            this.labelControl6.Location = new System.Drawing.Point(130, 157);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(36, 18);
             this.labelControl6.TabIndex = 0;
@@ -144,7 +145,7 @@
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(61, 150);
+            this.labelControl5.Location = new System.Drawing.Point(118, 181);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(48, 18);
             this.labelControl5.TabIndex = 0;
@@ -154,7 +155,7 @@
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(46, 102);
+            this.labelControl4.Location = new System.Drawing.Point(103, 133);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(63, 18);
             this.labelControl4.TabIndex = 0;
@@ -164,7 +165,7 @@
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(46, 78);
+            this.labelControl3.Location = new System.Drawing.Point(103, 109);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(63, 18);
             this.labelControl3.TabIndex = 0;
@@ -172,28 +173,28 @@
             // 
             // txtSatisfiyat
             // 
-            this.txtSatisfiyat.Location = new System.Drawing.Point(127, 199);
+            this.txtSatisfiyat.Location = new System.Drawing.Point(184, 230);
             this.txtSatisfiyat.Name = "txtSatisfiyat";
             this.txtSatisfiyat.Size = new System.Drawing.Size(132, 20);
             this.txtSatisfiyat.TabIndex = 1;
             // 
             // txtAlisfiyat
             // 
-            this.txtAlisfiyat.Location = new System.Drawing.Point(127, 175);
+            this.txtAlisfiyat.Location = new System.Drawing.Point(184, 206);
             this.txtAlisfiyat.Name = "txtAlisfiyat";
             this.txtAlisfiyat.Size = new System.Drawing.Size(132, 20);
             this.txtAlisfiyat.TabIndex = 1;
             // 
             // txtModel
             // 
-            this.txtModel.Location = new System.Drawing.Point(127, 103);
+            this.txtModel.Location = new System.Drawing.Point(184, 134);
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(132, 20);
             this.txtModel.TabIndex = 1;
             // 
             // txtMarka
             // 
-            this.txtMarka.Location = new System.Drawing.Point(127, 79);
+            this.txtMarka.Location = new System.Drawing.Point(184, 110);
             this.txtMarka.Name = "txtMarka";
             this.txtMarka.Size = new System.Drawing.Size(132, 20);
             this.txtMarka.TabIndex = 1;
@@ -202,7 +203,7 @@
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(79, 54);
+            this.labelControl2.Location = new System.Drawing.Point(136, 85);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(30, 18);
             this.labelControl2.TabIndex = 0;
@@ -210,7 +211,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(127, 30);
+            this.txtId.Location = new System.Drawing.Point(184, 61);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(132, 20);
             this.txtId.TabIndex = 1;
@@ -219,7 +220,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(82, 30);
+            this.labelControl1.Location = new System.Drawing.Point(139, 61);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(27, 18);
             this.labelControl1.TabIndex = 0;
@@ -230,19 +231,21 @@
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
             // gridControl1
             // 
             this.gridControl1.Location = new System.Drawing.Point(-1, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(491, 578);
+            this.gridControl1.Size = new System.Drawing.Size(643, 730);
             this.gridControl1.TabIndex = 2;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.btnGuncelle);
             this.groupControl1.Controls.Add(this.btnSil);
             this.groupControl1.Controls.Add(this.txtYil);
@@ -264,18 +267,30 @@
             this.groupControl1.Controls.Add(this.labelControl2);
             this.groupControl1.Controls.Add(this.txtId);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(487, 0);
+            this.groupControl1.Location = new System.Drawing.Point(639, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(316, 578);
+            this.groupControl1.Size = new System.Drawing.Size(511, 730);
             this.groupControl1.TabIndex = 3;
             this.groupControl1.Text = " ";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(130, 540);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(223, 48);
+            this.simpleButton1.TabIndex = 8;
+            this.simpleButton1.Text = "TEMİZLE";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // btnGuncelle
             // 
             this.btnGuncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelle.Appearance.Options.UseFont = true;
             this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.ImageOptions.Image")));
-            this.btnGuncelle.Location = new System.Drawing.Point(73, 432);
+            this.btnGuncelle.Location = new System.Drawing.Point(130, 486);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(223, 48);
             this.btnGuncelle.TabIndex = 7;
@@ -287,7 +302,7 @@
             this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Appearance.Options.UseFont = true;
             this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
-            this.btnSil.Location = new System.Drawing.Point(73, 378);
+            this.btnSil.Location = new System.Drawing.Point(130, 432);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(223, 48);
             this.btnSil.TabIndex = 7;
@@ -296,7 +311,7 @@
             // 
             // txtYil
             // 
-            this.txtYil.Location = new System.Drawing.Point(127, 126);
+            this.txtYil.Location = new System.Drawing.Point(184, 157);
             this.txtYil.Mask = "0000";
             this.txtYil.Name = "txtYil";
             this.txtYil.Size = new System.Drawing.Size(132, 21);
@@ -305,7 +320,7 @@
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(127, 55);
+            this.txtAd.Location = new System.Drawing.Point(184, 86);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(132, 20);
             this.txtAd.TabIndex = 1;
@@ -314,7 +329,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 577);
+            this.ClientSize = new System.Drawing.Size(1151, 725);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmUrunler";
@@ -364,5 +379,6 @@
         private System.Windows.Forms.MaskedTextBox txtYil;
         private DevExpress.XtraEditors.SimpleButton btnGuncelle;
         private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

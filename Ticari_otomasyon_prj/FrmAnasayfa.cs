@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ticari_otomasyon_prj
 {
-    public partial class FrmAnasayfa : Form
+    public partial class ANASAYFA : Form
     {
-        public FrmAnasayfa()
+        public ANASAYFA()
         {
             InitializeComponent();
 
@@ -23,6 +23,9 @@ namespace Ticari_otomasyon_prj
             
         }
         FrmUrunler fr;
+        MÜŞTERİLER fr2;
+        PERSONELLER fr3;
+        
         private void btnUrunler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             if (fr == null)
@@ -33,6 +36,26 @@ namespace Ticari_otomasyon_prj
             }
         }
 
-      
+        private void btnMusteriler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if(fr2 == null)
+            {
+                fr2=new MÜŞTERİLER();
+                fr2.MdiParent = this;
+                fr2.Show();
+            }
+        }
+
+        private void btnPersoneller_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if( fr3 == null)
+            {
+
+                fr3 = new PERSONELLER();
+                fr3.MdiParent = this;
+                fr3.Show();
+
+            }
+        }
     }
 }

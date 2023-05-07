@@ -16,7 +16,7 @@ namespace Ticari_otomasyon_prj
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAnasayfa());
+            Application.Run(new ANASAYFA());
         }
     }
 }

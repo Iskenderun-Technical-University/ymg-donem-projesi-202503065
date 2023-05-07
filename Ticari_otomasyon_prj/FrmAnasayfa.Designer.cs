@@ -1,6 +1,6 @@
 ﻿namespace Ticari_otomasyon_prj
 {
-    partial class FrmAnasayfa
+    partial class ANASAYFA
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnasayfa));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ANASAYFA));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.btnUrunler = new DevExpress.XtraBars.BarButtonItem();
             this.btnStoklar = new DevExpress.XtraBars.BarButtonItem();
@@ -75,7 +75,7 @@
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(1202, 153);
+            this.ribbonControl1.Size = new System.Drawing.Size(1279, 153);
             // 
             // btnUrunler
             // 
@@ -108,6 +108,7 @@
             this.btnMusteriler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnMusteriler.ItemAppearance.Normal.Options.UseFont = true;
             this.btnMusteriler.Name = "btnMusteriler";
+            this.btnMusteriler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnMusteriler_ItemClick);
             // 
             // btnFirmalar
             // 
@@ -138,6 +139,7 @@
             this.btnPersoneller.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnPersoneller.ItemAppearance.Normal.Options.UseFont = true;
             this.btnPersoneller.Name = "btnPersoneller";
+            this.btnPersoneller.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnPersoneller_ItemClick);
             // 
             // btnGiderler
             // 
@@ -239,18 +241,19 @@
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // FrmAnasayfa
+            // ANASAYFA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1202, 795);
+            this.ClientSize = new System.Drawing.Size(1279, 939);
             this.Controls.Add(this.ribbonControl1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FrmAnasayfa";
+            this.Name = "ANASAYFA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ana Sayfa";
+            this.Text = "ANA SAYFA";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmAnasayfa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();

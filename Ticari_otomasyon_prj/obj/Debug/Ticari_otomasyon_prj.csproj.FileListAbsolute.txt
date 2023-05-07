@@ -41,5 +41,7 @@ C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\bin\Debug\DevExpr
 C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
 C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
 C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\bin\Debug\DevExpress.Office.v22.2.Core.xml
-C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\obj\Debug\Ticari_otomasyon_prj.FrmAnasayfa.resources
 C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\obj\Debug\Ticari_otomasyon_prj.FrmUrunler.resources
+C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\obj\Debug\Ticari_otomasyon_prj.MÜŞTERİLER.resources
+C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\obj\Debug\Ticari_otomasyon_prj.PERSONELLER.resources
+C:\Users\fatih\OneDrive\Masaüstü\csharp\Ticari_otomasyon_prj\obj\Debug\Ticari_otomasyon_prj.ANASAYFA.resources

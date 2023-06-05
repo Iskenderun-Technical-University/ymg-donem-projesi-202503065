@@ -29,11 +29,24 @@ namespace Ticari_otomasyon_prj
 
 
         }
+        void temizle()
+        {
+            txtId.Text = null;
+            txtAd.Text = null;
+            txtAlisfiyat.Text= null;
+            txtMarka.Text= null;
+            txtModel.Text = null;
+            txtYil.Text = null;
+            txtSatisfiyat.Text = null;
+            richDetay.Text= null;
+            numerAdet.Value = 0;
+        }
         private void FrmUrunler_Load(object sender, EventArgs e)
         {
             //ÜRÜNLER SEKMESİNDE OTOMATİK YÜKLENSİN DİYE LOAD İÇİNDE
 
             listele();
+            temizle();
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
@@ -52,6 +65,7 @@ namespace Ticari_otomasyon_prj
             bgl.bağlan().Close();
             MessageBox.Show("Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
+            temizle();
 
 
         }
@@ -64,6 +78,7 @@ namespace Ticari_otomasyon_prj
             bgl.bağlan().Close();
             MessageBox.Show("Sistemden Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             listele();
+            temizle();
 
         }
 
@@ -83,6 +98,7 @@ namespace Ticari_otomasyon_prj
             bgl.bağlan().Close();
             MessageBox.Show("Ürün bilgisi güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             listele();
+            temizle();
 
 
         }
@@ -105,15 +121,7 @@ namespace Ticari_otomasyon_prj
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            txtId.Text = null;
-            txtAd.Text = null;
-            txtAlisfiyat.Text= null;
-            txtMarka.Text= null;
-            txtModel.Text = null;
-            txtYil.Text = null;
-            txtSatisfiyat.Text = null;
-            richDetay.Text= null;
-            numerAdet.Value = 0;
+            temizle();
 
         }
     }

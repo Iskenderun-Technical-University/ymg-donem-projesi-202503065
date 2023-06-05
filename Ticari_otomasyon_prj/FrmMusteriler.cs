@@ -41,11 +41,24 @@ namespace Ticari_otomasyon_prj
             bgl.bağlan().Close();
 
         }
-
+        void temzile()
+        {
+            txtId.Text = "";
+            txtAd.Text = "";
+            txtSoyad.Text = "";
+            mskTelefon.Text = "";
+            mskTc.Text = "";
+            txtMail.Text = "";
+            comboİL.Text = "";
+            comboİlce.Text = "";
+            richAdres.Text = "";
+            txtVergi.Text = "";
+        }
         private void FrmMusteriler_Load(object sender, EventArgs e)
         {
             listele();
             sehirler();
+            temzile();
         }
 
         private void comboİL_SelectedIndexChanged(object sender, EventArgs e)
@@ -77,6 +90,7 @@ namespace Ticari_otomasyon_prj
             bgl.bağlan().Close();
             MessageBox.Show("Müşteri Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
+            temzile();
         }
 
         private void btnSil_Click(object sender, EventArgs e)
@@ -125,19 +139,17 @@ namespace Ticari_otomasyon_prj
             bgl.bağlan().Close();
             MessageBox.Show("Müşteri Bilgileri Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
+            temzile();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            txtId.Text = "";
-            txtAd.Text = "";
-            txtSoyad.Text = "";
-            mskTelefon.Text = "";
-            mskTc.Text = "";
-            txtMail.Text = "";
-            comboİL.Text = "";
-            richAdres.Text = "";
-            txtVergi.Text = "";
+
+            temzile();
+        }
+
+        private void groupControl1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

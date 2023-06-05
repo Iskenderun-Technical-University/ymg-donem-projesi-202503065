@@ -118,6 +118,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comboİL.Size = new System.Drawing.Size(197, 20);
             this.comboİL.TabIndex = 11;
+            this.comboİL.SelectedIndexChanged += new System.EventHandler(this.comboİL_SelectedIndexChanged);
             // 
             // mskTc
             // 
@@ -146,6 +147,7 @@
             this.simpleButton1.Size = new System.Drawing.Size(223, 48);
             this.simpleButton1.TabIndex = 8;
             this.simpleButton1.Text = "TEMİZLE";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // btnGuncelle
             // 
@@ -157,6 +159,7 @@
             this.btnGuncelle.Size = new System.Drawing.Size(223, 48);
             this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "GÜNCELLE";
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -168,6 +171,7 @@
             this.btnSil.Size = new System.Drawing.Size(223, 48);
             this.btnSil.TabIndex = 7;
             this.btnSil.Text = "SİL";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnKaydet
             // 
@@ -179,6 +183,7 @@
             this.btnKaydet.Size = new System.Drawing.Size(223, 48);
             this.btnKaydet.TabIndex = 3;
             this.btnKaydet.Text = "KAYDET";
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // richAdres
             // 
@@ -335,9 +340,14 @@
             // 
             // gridView2
             // 
+            this.gridView2.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.gridView2.Appearance.Row.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.gridView2.Appearance.Row.Options.UseBackColor = true;
+            this.gridView2.Appearance.Row.Options.UseBorderColor = true;
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
             this.gridView2.OptionsView.ShowGroupPanel = false;
+            this.gridView2.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView2_FocusedRowChanged);
             // 
             // PERSONELLER
             // 

@@ -1,6 +1,6 @@
 ﻿namespace Ticari_otomasyon_prj
 {
-    partial class ANASAYFA
+    partial class Frmanasayfa
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ANASAYFA));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frmanasayfa));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.btnUrunler = new DevExpress.XtraBars.BarButtonItem();
             this.btnStoklar = new DevExpress.XtraBars.BarButtonItem();
@@ -98,6 +98,7 @@
             this.btnStoklar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnStoklar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnStoklar.Name = "btnStoklar";
+            this.btnStoklar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnStoklar_ItemClick);
             // 
             // btnMusteriler
             // 
@@ -119,6 +120,7 @@
             this.btnFirmalar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnFirmalar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnFirmalar.Name = "btnFirmalar";
+            this.btnFirmalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnFirmalar_ItemClick);
             // 
             // btnAnasayfa
             // 
@@ -129,6 +131,7 @@
             this.btnAnasayfa.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAnasayfa.ItemAppearance.Normal.Options.UseFont = true;
             this.btnAnasayfa.Name = "btnAnasayfa";
+            this.btnAnasayfa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnAnasayfa_ItemClick);
             // 
             // btnPersoneller
             // 
@@ -150,6 +153,7 @@
             this.btnGiderler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGiderler.ItemAppearance.Normal.Options.UseFont = true;
             this.btnGiderler.Name = "btnGiderler";
+            this.btnGiderler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiderler_ItemClick);
             // 
             // btnKasa
             // 
@@ -160,6 +164,7 @@
             this.btnKasa.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKasa.ItemAppearance.Normal.Options.UseFont = true;
             this.btnKasa.Name = "btnKasa";
+            this.btnKasa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnKasa_ItemClick);
             // 
             // btnNotlar
             // 
@@ -170,6 +175,7 @@
             this.btnNotlar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnNotlar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnNotlar.Name = "btnNotlar";
+            this.btnNotlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNotlar_ItemClick);
             // 
             // btnBankalar
             // 
@@ -190,6 +196,7 @@
             this.btnRehber.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnRehber.ItemAppearance.Normal.Options.UseFont = true;
             this.btnRehber.Name = "btnRehber";
+            this.btnRehber.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnRehber_ItemClick);
             // 
             // btnFaturalar
             // 
@@ -200,6 +207,7 @@
             this.btnFaturalar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnFaturalar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnFaturalar.Name = "btnFaturalar";
+            this.btnFaturalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnFaturalar_ItemClick);
             // 
             // btnAyarlar
             // 
@@ -210,6 +218,7 @@
             this.btnAyarlar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAyarlar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnAyarlar.Name = "btnAyarlar";
+            this.btnAyarlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnAyarlar_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -231,7 +240,6 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.btnGiderler);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnKasa);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnNotlar);
-            this.ribbonPageGroup1.ItemLinks.Add(this.btnBankalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnRehber);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnFaturalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnAyarlar);
@@ -241,7 +249,7 @@
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // ANASAYFA
+            // Frmanasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -250,7 +258,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "ANASAYFA";
+            this.Name = "Frmanasayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ANA SAYFA";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
